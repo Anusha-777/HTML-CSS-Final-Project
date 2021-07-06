@@ -1,0 +1,409 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+/* CSS for Header */
+.header{
+    height: 70px;
+    width: 100%;
+    /* background-color: rgba(40, 56, 103, 1); */
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.container{
+    width: 85%;
+    /* height: 70px;
+    background-color: red;  */
+    display: flex;
+}
+
+.logo{
+    width:18%;
+    /* height: 70px; */
+    /* background-color: tomato; */
+    color: white;
+    font-size: 35px;
+    font-family: segoe UI;
+    text-align: center;
+    line-height: 70px;
+    font-weight:500;
+}
+
+.nav{
+    width: 45%;
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.header_container{
+    justify-content: space-between;
+}
+
+.nav-item{
+    width:20%;
+    color: white;
+    font-family:segoe UI;
+    font-size: 18px;
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+}
+.nav-item:hover{
+    color: rgba(6, 143, 252, 1);
+    /* rgba(40, 56, 103, 1) */
+    background-color: white;
+    transition: .3s;
+}
+
+/* CSS for Banner */
+.banner{
+    height: 650px;
+    width: 100%;
+    background-image: url("banner.jpg");
+}
+
+.overlay{
+    height: 650px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.banner_box{
+    height: 300px;
+    width: 50%;
+    background-color: rgba(6, 143, 252, 0.5);
+    /* rgba(40, 56, 103, 0.5); */
+    font-family: 'Segoe UI';
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.padd{
+    padding: 20px;
+}
+
+.banner_title{
+    color: white;
+    font-size: 28px;
+    margin: 25px;
+}
+.banner_desc{
+    margin:25px;
+}
+
+.banner_button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    cursor:pointer;
+    text-transform:uppercase;
+    transition: .3s;
+    margin-left: 25px;
+}
+
+.banner_button:hover{
+    color: rgba(6, 143, 252, 1);
+    /* rgba(40, 56, 103, 1); */
+    background-color: white;
+}
+
+/* CSS for Services */
+.services{
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #8080808c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI';
+}
+
+.service_container{
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service{
+    height: 300px;
+    width: 47%;
+    background-color: black;
+    display: flex;
+    margin-top: 20px;
+}
+
+.service_image{
+    height: 300px;
+    width: 40%;
+    display: flex;
+    overflow: hidden;
+}
+
+.service_details{
+    width:60%;
+    background-color: honeydew;
+    display: flex;
+    align-items: center;
+}
+
+.serv_padd{
+    padding: 10px;
+}
+
+.serv_title{
+    margin-bottom: 8px;
+}
+
+.serv_desc{
+    margin-bottom: 10px;
+}
+
+.serv_butn{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(6, 143, 252, 1);
+    /* rgb(6, 26, 83,1); */
+    color: white;
+    /* border: 3px solid white; */
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    cursor:pointer;
+    text-transform:uppercase;
+    transition: .3s;
+    /* margin-left: 25px; */
+}
+
+.serv_butn:hover{
+    color:rgba(6, 143, 252, 1);
+    /* rgba(6, 26, 83, 1); */
+    background-color: white;
+}
+
+/*CSS for About*/
+
+.about{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:honeydew;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;  */
+    align-items: center;
+    font-family: 'Segoe UI';
+}
+
+.about_container{
+    margin-top: 10px;
+    line-height: 30px;
+    display: inline;
+}
+
+.first_word{
+    font-size: 30px;
+    font-weight: bold;
+    color: grey;
+}
+
+/* CSS for Highlight */
+.highlight{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 100%;
+    background-color: rgba(6, 143, 252, 1);
+    display: flex;
+    /* flex-direction: column;
+    align-items: center; */
+    justify-content: center;
+}
+
+.high_container{
+    justify-content: space-between;
+}
+
+.high_ele{
+    width: 23%;
+    height: 200px;
+    background-color:rgb(2, 14, 49,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI';
+    text-align: center;
+    color: white;
+}
+
+.high_title{
+    font-size:40px;
+}
+
+.high_desc{
+    font-size: 20px;
+}
+
+/* CSS for portfolio */
+.portfolio{
+    width: 100%;
+    display: flex;
+    
+}
+
+.port_container{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.project
+{
+    width: 25%;
+    height: 250px;
+    background-color: red;
+    display: flex;
+    overflow: hidden;
+}
+
+.project_1{
+    background-image: url("https://images.pexels.com/photos/5709661/pexels-photo-5709661.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+}
+
+.project_3{
+    background-image: url("https://images.pexels.com/photos/1926988/pexels-photo-1926988.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+}
+
+.project_2{
+    background-image: url("https://images.pexels.com/photos/7084350/pexels-photo-7084350.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_4{
+    background-image: url("https://images.pexels.com/photos/4450334/pexels-photo-4450334.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_5{
+    background-image: url("https://images.pexels.com/photos/209977/pexels-photo-209977.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+}
+
+.project_6{
+    background-image: url("https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_8{
+    background-image: url("https://images.pexels.com/photos/163792/model-planes-airplanes-miniatur-wunderland-hamburg-163792.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    align-items: flex-end;
+}
+
+
+.project_7{
+    background-image: url("https://images.pexels.com/photos/995301/pexels-photo-995301.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+}
+
+.project_title{
+    color: white;
+    background-color:rgb(4, 43, 153,0.5);
+    width: 100%;
+    height: 50%;
+    text-indent: 25px;
+    line-height: 200px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.project_title:hover{
+    height: 100%;
+}
+
+/* CSS for footer */
+
+.footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(82, 81, 81);
+    display: flex;
+    justify-content: center;
+}
+
+.footer_child{
+    height: 180px;
+    width: 25%;
+    font-family: 'Segoe UI';
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_child_1{
+    color: white;
+    font-size: 18px;
+}
+
+.footer_child_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+} 
+
+ul{
+    margin-top: 20px;
+}
+li{
+    margin-bottom: 5px;
+    list-style-type: none ;
+    color: white;
+}
+
+.list_item1{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.social_icon{
+    height: 35px;
+    width: 20%;
+    margin-left: 8px;
+    /* background-color: yellow;   */
+    background-size: cover; 
+}
+
+.si1{
+    background-image: url(https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-128.png);
+}
+
+.si2{
+    background-image: url(https://cdn1.iconfinder.com/data/icons/logotypes/32/square-google-plus-128.png);
+}
+
+.si3{
+    background-image: url(https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-128.png);
+}
+
+.si4{
+    background-image: url(https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-03-128.png);
+}
